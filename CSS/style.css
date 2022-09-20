@@ -1,0 +1,50 @@
+:root {
+  /* div */
+  --root-color: #0f0f0f;
+  --bg-color: #202020;
+  --div-color: #474747;
+
+  /* borders */
+  --border-color-hover: #e8e8e8;
+  --border-width-hover: 1px;
+  --border-width-active: 3px;
+  --border-radius: 5px;
+  
+}
+
+html{
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  overflow-y: hidden;
+}
+
+body {
+  margin: 0px;
+  background-color: var(--root-color);
+  height: 100%;
+  overflow-y: hidden;
+  position: relative;
+}
+
+.app {
+  height: 100%;
+  padding: 3%;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 3.5fr 1fr;
+  grid-column-gap: 5px;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.p5Canvas {
+  border: solid 0.4rem var(--div-color);
+  border-radius: 0.3rem;
+  box-sizing: border-box; 
+}
+
+p {
+  color: #D8D8D8;
+  font-family: 'Roboto', sans-serif;
+}

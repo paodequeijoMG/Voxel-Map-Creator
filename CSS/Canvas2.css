@@ -1,0 +1,8 @@
+#canvas2 {
+  border-radius: var(--border-radius);
+  border: solid 0.1rem var(--root-color);
+  margin: auto;
+  display: block;
+  height: 250px;
+  width: 250px;
+}

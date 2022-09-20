@@ -1,0 +1,20 @@
+.GUI_container1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    width: auto;
+}
+
+.tablinks {
+    background: var(--div-color);
+    opacity: 50%;
+    color: #fff;
+    padding: 0.3rem 0.5rem;
+    border: 0px;
+    border-radius: var(--border-radius) var(--border-radius) 0 0     ;
+}
+
+.tablinks.active {
+    background: var(--div-color);
+    opacity: 100%;
+    transition: background-color 0s;
+}
